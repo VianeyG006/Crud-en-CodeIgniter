@@ -1,0 +1,67 @@
+ERROR - 2022-06-07 09:48:38 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2022-06-07 09:48:38 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\proyecto\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\proyecto\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(12): CodeIgniter\BaseModel->find()
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 10:07:07 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(9): view('album/index')
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 10:14:47 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(9): view('album/index')
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 10:15:26 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(13): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 10:18:53 --> Class 'App\Models\AlbumModel' not found
+#0 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-07 10:19:36 --> Class 'App\Entities\Album' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 10:21:39 --> Class 'App\Entities\Album' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 10:24:19 --> Class 'App\Entities\Album' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 10:24:57 --> Class 'App\Entities\Album' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 10:26:36 --> Class 'App\Entities\Album' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,92 @@
+CRITICAL - 2022-05-09 09:16:09 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\proyecto\app\Controllers\Home.php on line 17
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(17): view('resultados', Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 09:16:55 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\proyecto\app\Controllers\Home.php on line 17
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(17): view('resultados', 'Hola')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 09:17:21 --> Invalid file: resultados.php
+#0 C:\xampp\htdocs\proyecto\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('resultados.php')
+#1 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('resultados', Array, true)
+#2 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(17): view('resultados', Array)
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 09:22:13 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\proyecto\app\Controllers\Home.php on line 16
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(16): view('resultados', Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 09:22:30 --> Undefined variable: msg
+#0 C:\xampp\htdocs\proyecto\app\Views\resultados.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('resultados', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(16): view('resultados', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 09:23:08 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\proyecto\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('resultados', Array, true)
+#3 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(16): view('resultados', Array)
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 09:24:01 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\proyecto\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('resultados', Array, true)
+#3 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(16): view('resultados', Array)
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 09:24:10 --> Object of class mysqli could not be converted to string
+#0 C:\xampp\htdocs\proyecto\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('resultados', Array, true)
+#3 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(16): view('resultados', Array)
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 09:25:09 --> Undefined property: mysqli::$id
+#0 C:\xampp\htdocs\proyecto\app\Views\resultados.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('resultados', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(16): view('resultados', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 09:25:36 --> Call to undefined function var_dup()
+#0 C:\xampp\htdocs\proyecto\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('resultados', Array, true)
+#3 C:\xampp\htdocs\proyecto\app\Controllers\Home.php(16): view('resultados', Array)
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Home->bienvenida()
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

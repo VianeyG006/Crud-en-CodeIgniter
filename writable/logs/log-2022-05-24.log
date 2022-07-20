@@ -1,0 +1,62 @@
+CRITICAL - 2022-05-24 09:31:01 --> Undefined index: name
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 09:34:22 --> Undefined variable: GenreModel
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-24 09:36:02 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-24 09:36:02 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-24 09:40:59 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-24 09:40:59 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(26): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-24 09:44:27 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-05-24 09:44:27 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(27): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

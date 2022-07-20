@@ -1,0 +1,651 @@
+CRITICAL - 2022-06-09 00:00:29 --> Undefined variable: datos
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 00:01:00 --> Undefined variable: albums
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 00:03:05 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 00:05:45 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 00:06:35 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 00:06:37 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 00:08:06 --> Undefined variable: albums
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 00:08:12 --> Undefined variable: albums
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 00:09:13 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 14:43:16 --> Undefined offset: 1
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 431, Array)
+#1 C:\xampp\htdocs\proyecto\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 14:43:24 --> Undefined offset: 1
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(431): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 431, Array)
+#1 C:\xampp\htdocs\proyecto\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 15:49:12 --> Undefined variable: mensaje
+#0 C:\xampp\htdocs\proyecto\app\Views\genre\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('genre/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(14): view('genre/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 15:51:16 --> Call to undefined method App\Models\GenreModel::listarNombres
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(12): CodeIgniter\Model->__call('listarNombres', Array)
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->index()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 15:52:18 --> Table 'music.genre' doesn't exist
+CRITICAL - 2022-06-09 15:52:18 --> Table 'music.genre' doesn't exist
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM g...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM g...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM g...')
+#3 C:\xampp\htdocs\proyecto\app\Models\GenreModel.php(9): CodeIgniter\Database\BaseConnection->query('SELECT * FROM g...')
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(12): App\Models\GenreModel->listarNombres()
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 15:53:49 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\genre\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('genre/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(20): view('genre/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 15:54:36 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\genre\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('genre/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(20): view('genre/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 15:54:39 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\genre\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('genre/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(20): view('genre/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 16:05:22 --> Attempt to assign property 'name' of non-object
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->update()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 16:21:07 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 16:21:07 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(49): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-09 20:21:10 --> The server requested authentication method unknown to the client
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(90): mysqli_connect('localhost', 'root', '', 'music')
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 20:34:30 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#2 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-09 20:49:14 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#2 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-09 20:50:08 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(19): view('album/index', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 21:05:01 --> syntax error, unexpected 'as' (T_AS)
+#0 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/index', Array, true)
+#2 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(23): view('album/index', Array)
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->index()
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-09 21:19:17 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 21:19:17 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(50): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-09 21:20:01 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 21:20:01 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(49): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-09 21:22:10 --> syntax error, unexpected '$genreModel' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('genre')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('genre')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 21:26:15 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 21:26:15 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(49): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-09 21:28:35 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 21:28:35 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(49): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-09 21:28:45 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 21:28:45 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(49): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-09 21:33:04 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 21:33:04 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\app\Models\GenreModel.php(10): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(47): App\Models\GenreModel->insertar(Array)
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-09 21:33:17 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 21:33:17 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\app\Models\GenreModel.php(10): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(47): App\Models\GenreModel->insertar(Array)
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-09 21:36:10 --> Duplicate entry 'J-pop ' for key 'name'
+CRITICAL - 2022-06-09 21:36:10 --> Duplicate entry 'J-pop ' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\app\Models\GenreModel.php(10): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(47): App\Models\GenreModel->insertar(Array)
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-09 21:36:54 --> Undefined variable: respueta
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 21:38:38 --> Duplicate entry 'J-pop 2' for key 'name'
+CRITICAL - 2022-06-09 21:38:38 --> Duplicate entry 'J-pop 2' for key 'name'
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\proyecto\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Genre), false)
+#8 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(50): CodeIgniter\BaseModel->save(Object(App\Entities\Genre))
+#9 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->save()
+#10 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#11 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-09 21:55:07 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/edit', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(35): view('album/edit', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 21:58:01 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/edit', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(35): view('album/edit', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 21:58:03 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/edit', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(35): view('album/edit', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 21:58:07 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/edit', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(35): view('album/edit', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 21:58:55 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/edit', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(35): view('album/edit', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 21:58:56 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\edit.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/edit', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(35): view('album/edit', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 21:59:58 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\edit.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/edit', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(35): view('album/edit', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 22:06:11 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:06:44 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:07:12 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:07:46 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:08:03 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:08:24 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:09:05 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:10:04 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:10:45 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:11:23 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\proyecto\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('album/edit/2')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('album/edit/2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 22:12:25 --> Undefined variable: mensaje
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 22:32:17 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-06-09 22:32:17 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `albums`...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `albums`...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `albums`...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `albums`...', Array, false)
+#4 C:\xampp\htdocs\proyecto\app\Models\AlbumsModel.php(31): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(81): App\Models\AlbumsModel->actualizar(Array, '2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->update()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-09 22:36:52 --> Undefined variable: mensaje
+#0 C:\xampp\htdocs\proyecto\app\Views\album\edit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/edit', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(42): view('album/edit', Array)
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 22:37:33 --> Undefined variable: mensaje
+#0 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->edit('2')
+#2 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#3 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 22:39:45 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-06-09 22:39:45 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\proyecto\app\Models\AlbumsModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(61): App\Models\AlbumsModel->insertar(Array)
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->save()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-09 22:41:42 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\new.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/new', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(48): view('album/new')
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->new()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-09 22:42:02 --> Undefined variable: genres
+#0 C:\xampp\htdocs\proyecto\app\Views\album\new.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\proyecto\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto\system\Common.php(1089): CodeIgniter\View\View->render('album/new', Array, true)
+#4 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(48): view('album/new')
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->new()
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-09 22:44:37 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-06-09 22:44:37 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\proyecto\app\Models\AlbumsModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(61): App\Models\AlbumsModel->insertar(Array)
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->save()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-09 22:44:43 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-06-09 22:44:43 --> Cannot add or update a child row: a foreign key constraint fails (`music`.`albums`, CONSTRAINT `genre_inter_relational_constraint` FOREIGN KEY (`genre_id`) REFERENCES `genres` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\proyecto\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\proyecto\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\proyecto\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\proyecto\app\Models\AlbumsModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyecto\app\Controllers\Album.php(61): App\Models\AlbumsModel->insertar(Array)
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Album->save()
+#7 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Album))
+#8 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-09 23:45:37 --> There is no data to update.
+#0 C:\xampp\htdocs\proyecto\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\proyecto\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 C:\xampp\htdocs\proyecto\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Genre))
+#3 C:\xampp\htdocs\proyecto\app\Controllers\Genre.php(71): CodeIgniter\Model->update('1', Object(App\Entities\Genre))
+#4 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(832): App\Controllers\Genre->update()
+#5 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#6 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
